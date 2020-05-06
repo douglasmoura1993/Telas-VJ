@@ -30,8 +30,8 @@ session_start();
             						
 				          </div>
 				        </div>
-                        <h2 class="form-title">Cadastro do Aluno</h2>
-                        <form  action="processa.php" method="POST" >
+                        <h2 class="form-title">Secretaria</h2>
+                        <form  action="secretaria_cad.php" method="POST" >
                             <?php
                                 if(isset($_SESSION['msg'])){
                                     echo $_SESSION['msg'];
@@ -48,7 +48,7 @@ session_start();
                         	<!--Ra-->
                             <div class="form-group">
                                 <label for="registry"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="number" name="registro" id="registry" placeholder="Registo do Anluno" required/>
+                                <input type="number" name="registro" id="registry" placeholder="Registro Interno" required/>
                             </div>
                             <!--Nome-->
                             <div class="form-group">
